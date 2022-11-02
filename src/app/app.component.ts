@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'PorfolioNuevo2';
 
-  clickBoton():void{
-    alert("Se ha pulsado un Boton")
+  //clickBoton():void{
+    //alert("Se ha pulsado un Boton")
   }
-}
+
 

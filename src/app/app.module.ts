@@ -8,7 +8,6 @@ import { HttpClientModule } from '@angular/common/http';
 
 //Importar los componentes
 import { AppComponent } from './app.component';
-
 import { LoginComponent } from './modals/login/login.component';
 import { RedesComponent } from './redes/redes.component';
 import { BannerComponent } from './banner/banner.component';
@@ -19,13 +18,11 @@ import { InterestsComponent } from './interests/interests.component';
 import { AwardsComponent } from './awards/awards.component';
 import { WorkComponent } from './work/work.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
-
 import { IndexComponent } from './index/index.component';
 import { MainComponent } from './main/main.component';
 import { AcercademiComponent } from './acercademi/acercademi.component';
 import { ErrorComponent } from './error/error.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-
 import { BotonlogoutComponent } from './botonlogout/botonlogout.component';
 import { AcercademidashboardComponent } from './acercademidashboard/acercademidashboard.component';
 import { ExperiencedashboardComponent } from './experiencedashboard/experiencedashboard.component';
@@ -38,7 +35,6 @@ import { AwardsdashboardComponent } from './awardsdashboard/awardsdashboard.comp
 import { InterestsdashboardComponent } from './interestsdashboard/interestsdashboard.component';
 import { NabvarComponent } from './nabvar/nabvar.component';
 import { NabvardashboardComponent } from './nabvardashboard/nabvardashboard.component';
-import { AppRoutingModuleComponent } from './app-routing.module/app-routing.module.component';
 import { AppRoutingModule } from './app-routing.module';
 
 
@@ -73,7 +69,7 @@ import { AppRoutingModule } from './app-routing.module';
     InterestsdashboardComponent,
     NabvarComponent,
     NabvardashboardComponent,
-    AppRoutingModuleComponent,
+    
     
    
   ],
