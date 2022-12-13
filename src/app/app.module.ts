@@ -2,13 +2,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 //Importar los servicios
 //import { PorfolioService } from './servicios/porfolio.service'; Si lo ponemos asi tambien funciona
 
 //Importar los componentes
 import { AppComponent } from './app.component';
-import { LoginComponent } from './modals/login/login.component';
+//import { LoginComponent } from './modals/login/login.component';
+import { LoginComponent } from './login/login.component';
 import { RedesComponent } from './redes/redes.component';
 import { BannerComponent } from './banner/banner.component';
 import { ExperienceComponent } from './experience/experience.component';
@@ -36,52 +37,57 @@ import { InterestsdashboardComponent } from './interestsdashboard/interestsdashb
 import { NabvarComponent } from './nabvar/nabvar.component';
 import { NabvardashboardComponent } from './nabvardashboard/nabvardashboard.component';
 import { AppRoutingModule } from './app-routing.module';
+//import { LoginComponent_1 as LoginComponent } from "./modals/login/login.component";
 
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    LoginComponent,
-    RedesComponent,
-    BannerComponent,
-    IndexComponent,
-    ExperienceComponent,
-    EducationComponent,
-    SkillsComponent,
-    InterestsComponent,
-    AwardsComponent,
-    WorkComponent,
-    ProyectosComponent,
-    ErrorComponent,
-    MainComponent,
-    AcercademiComponent,
-    DashboardComponent,
-    BotonlogoutComponent,
-    AcercademidashboardComponent,
-    ExperiencedashboardComponent,
-    EducationdashboardComponent,
-    ProyectosdashboardComponent,
-    SkillsdashboardComponent,
-    WorkdashboardComponent,
-    BannerdashboardComponent,
-    AwardsdashboardComponent,
-    InterestsdashboardComponent,
-    NabvarComponent,
-    NabvardashboardComponent,
-    
-    
-   
-  ],
-  
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule
-
-  ],
-  //Agregamos el servicio al array de providers
-  providers: [],    //PorfolioService si lo ponemos asi tambien funciona
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        LoginComponent,
+        RedesComponent,
+        BannerComponent,
+        IndexComponent,
+        ExperienceComponent,
+        EducationComponent,
+        SkillsComponent,
+        InterestsComponent,
+        AwardsComponent,
+        WorkComponent,
+        ProyectosComponent,
+        ErrorComponent,
+        MainComponent,
+        AcercademiComponent,
+        DashboardComponent,
+        BotonlogoutComponent,
+        AcercademidashboardComponent,
+        ExperiencedashboardComponent,
+        EducationdashboardComponent,
+        ProyectosdashboardComponent,
+        SkillsdashboardComponent,
+        WorkdashboardComponent,
+        BannerdashboardComponent,
+        AwardsdashboardComponent,
+        InterestsdashboardComponent,
+        NabvarComponent,
+        NabvardashboardComponent,
+    ],
+    //Agregamos el servicio al array de providers
+    providers: [],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule,
+        FormsModule,
+        ReactiveFormsModule,
+        LoginComponent
+    ]
 })
 export class AppModule { }
+
+
+
+
+
+//export class AppModule { }

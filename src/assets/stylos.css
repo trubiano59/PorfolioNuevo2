@@ -460,3 +460,13 @@ html{
     z-index: 100;
     top: 0;
 }
+
+.colorBoton{
+    color:#7c590c;
+    opacity: 0.5;
+}
+
+
+.colorBoton:hover{
+    opacity: 0.8;
+}
