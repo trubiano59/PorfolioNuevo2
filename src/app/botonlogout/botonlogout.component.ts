@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./botonlogout.component.css']
 })
 export class BotonlogoutComponent implements OnInit {
+onLogOut() {
+throw new Error('Method not implemented.');
+}
 
   constructor() { }
 
@@ -13,3 +16,6 @@ export class BotonlogoutComponent implements OnInit {
   }
 
 }
+
+
+

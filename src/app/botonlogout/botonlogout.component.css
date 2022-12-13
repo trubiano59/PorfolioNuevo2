@@ -1,0 +1,8 @@
+.fa-solid.fa-user.fa-xl:hover{
+    --bs-text-opacity: 1;
+    color: #FFFFFF
+}
+
+.btn btn-line-secondary{
+    background-color: blue;
+}

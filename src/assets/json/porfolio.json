@@ -1,44 +1,47 @@
 {
-    "banner": "assets/img/ALPES SUIZOS.png",
-    "profileImage": "assets/img/profile.jpg",
-    "nombre": "Miguel Angel",
-    "apellido": "Trubiano",
-    "tituloPerfil": "Desarrollador Web Full Stack Jr",
-    "acerca_de_mi": "Deseo ganar experiencia en desarrollo/programación aplicando y expandiendo las aptitudes adquiridas, teniendo interes en trabajar en equipo para compartir y profundizar habilidades que complementen mis conocimientos de programación y como Front End Developer Junior realizando diferentes programas, para lo cual trato diariamente en mi tiempo libre de recopilar información de cursos, explorando los últimos avances tecnológicos en el mundo del desarrollo web front-end y back-end", 
+    "persona":{
+        "banner": "assets/img/ALPES SUIZOS.png",
+        "profileImage": "assets/img/profile.jpg",
+        "nombre": "Miguel Angel",
+        "apellido": "Trubiano",
+        "tituloPerfil": "Desarrollador Web Full Stack Jr",
+        "acerca_de_mi": "Deseo ganar experiencia en desarrollo/programación aplicando y expandiendo las aptitudes adquiridas, teniendo interes en trabajar en equipo para compartir y profundizar habilidades que complementen mis conocimientos de programación y como Front End Developer Junior realizando diferentes programas, para lo cual trato diariamente en mi tiempo libre de recopilar información de cursos, explorando los últimos avances tecnológicos en el mundo del desarrollo web front-end y back-end"
+    },
+    
     "educacion": [
         {
             "id": 1,
-            "institución": "Universidad Tecnológica Nacional",
+            "institucion": "Universidad Tecnológica Nacional",
             "titulo": "Licenciado en Higiene y Seguridad Laboral",
-            "inicio": "2013-02-15",
-            "fin": "2015-12-20",
+            "inicio": "15-02-2013",
+            "fin": "20-12-2015",
             "nivel": "Universitario",
             "img":"assets/img/diploma.jpg"
         },
         {
             "id": 2,
-            "institución": "Argentina Programa 1ra Etapa",
-            "titulo1": "Argentina Programa",
-            "inicio": "2021-02-18",
-            "fin": "2021-10-30",
+            "institucion": "Argentina Programa 1ra Etapa",
+            "titulo": "Argentina Programa",
+            "inicio": "18-02-2021",
+            "fin": "30-10-2021",
             "nivel": "Se Programar",
             "img":"assets/img/certificado.jpg"
         },
         {
             "id": 3,
-            "institución": "Argentina Programa 3ra Edición",
-            "titulo2": "Yo Programo",
-            "inicio": "2022-05-18",
-            "fin": "2023-01-15",
+            "institucion": "Argentina Programa 3ra Edición",
+            "titulo": "Yo Programo",
+            "inicio": "18-05-2022",
+            "fin": "15-01-2023",
             "nivel": "Yo Programo 3ra Edición",
             "img":"assets/img/MINIATURA-ARGEPROGR.jpg"
         },
         {
             "id": 4,
-            "institución": "Fundación Educativa Santisima Trinidad",
-            "titulo3": "Python",
-            "inicio": "2022-02-18",
-            "fin": "2022-10-30",
+            "institucion": "Fundación Educativa Santisima Trinidad",
+            "titulo": "Python",
+            "inicio": "18-02-2022",
+            "fin": "30-10-2022",
             "nivel": "Principiante",
             "img":"assets/img/mi certificado1.png"
         }
@@ -46,93 +49,161 @@
     "experiencias": [
         {
             "id": 1,
-            "institución": "Argentina Programa 1ra Etapa",
+            "institucion": "Argentina Programa 1ra Etapa",
             "titulo": "Senior Web Developer",
-            "inicio": "2021-11-15",
-            "fin": "2022-01-20",
+            "inicio": "15-11-2021",
+            "fin": "20-01-2022",
             "nivel": "Principiante",
             "img":"assets/img/PREPARANDO MI PORFOLIO.jpg"
         },
         {
             "id": 2,
-            "titulo1": "Licenciado en Higiene y Seguridad en el Trabajo",
-            "inicio": "2015-12-10",
+            "institucion": "Universidad Tecnológica Nacional",
+            "titulo": "Licenciado en Higiene y Seguridad en el Trabajo",
+            "inicio": "10-12-2015",
+            "fin": "30-11-2020",
             "nivel": "Capacitador en empresas",
             "img":"assets/img/LICENCIADO.png"
         },
         {
             "id": 3,
-            "institución": "Argentina Programa 3ra Edición",
-            "titulo2": "Desarrollador FullStack Estudiante de diseño web",
-            "inicio": "2022-05-18",
-            "nivel": "Estudiante"
+            "institucion": "Argentina Programa 3ra Edición",
+            "titulo": "Desarrollador FullStack Estudiante de diseño web",
+            "inicio": "18-05-2022",
+            "fin": "15-01-2023",
+            "nivel": "Estudiante",
+            "img":"assets/img/PROGRAMACIÓN.jpg"
         }
     ],
     "skills": [
-
-
-
+        {
+            "id": 1,
+            "habilidad": "HTML",
+            "porcentaje": "75",
+            "color": "bg-primary"
+        },
+        {
+            "id": 2,
+            "habilidad": "CSS",
+            "porcentaje": "60",
+            "color": "bg-success"
+        },
+        {
+            "id": 3,
+            "habilidad": "JAVA",
+            "porcentaje": "50",
+            "color": "bg-danger"
+        },
+        {
+            "id": 4,
+            "habilidad": "JAVASCRIPT",
+            "porcentaje": "35",
+            "color": "bg-warning"
+        },
+        {
+            "id": 5,
+            "habilidad": "BOOPSTRAP",
+            "porcentaje": "90",
+            "color": "bg-info"
+        },
+        {
+            "id": 6,
+            "habilidad": "PYTHON",
+            "porcentaje": "90",
+            "color": "bg-secondary"
+        },
+        {
+            "id": 7,
+            "habilidad": "MANEJO DE EXTINTORES",
+            "porcentaje": "90",
+            "color": "bg-terciary"
+        },
+        {
+            "id": 8,
+            "habilidad": "Carga de Datos (Data Entry)",
+            "porcentaje": "90",
+            "color": "bg-dark"
+        }
     ],
     "proyectos": [
         {
             "id": 1,
-            "institución": "",
-            "titulo": "",
-            "inicio": "",
-            "fin": "",
-            "nivel": "",
-            "img":"assets/img/diploma.jpg"
+            "proyecto": "ARMADO DE PROGRAMAS DE CAPACITACIONES de Higiene y Seguridad en el trabajo ",
+            "texto": "Programa Empleo Joven y colegios de niveles secundarios y terciarios",
+            "img": "./assets/img/Seguridad-higiene-trabajo.jpg"
         },
         {
             "id": 2,
-            "institución": "",
-            "titulo1": "",
-            "inicio": "",
-            "fin": "",
-            "nivel": "",
-            "img":"assets/img/certificado.jpg"
+            "proyecto": "PROGRAMA DE CONTROL DE SEGURIDAD EN EMPRESAS",
+            "texto": "sistema de gestion de seguridad",
+            "img": "./assets/img/sistema de gestion de seguridad.jpg"
         },
         {
             "id": 3,
-            "institución": "",
-            "titulo2": "",
-            "inicio": "",
-            "fin": "",
-            "nivel": "",
-            "img":""
+            "proyecto": "PROGRAMAS DE CONTROL DE ACCIDENTES Y ENFERMEDADES PROFESIONALES ",
+            "texto": "seguridad e higiene",
+            "img": "./assets/img/accidentes y enfermedades.jpg"
         }
     ],
     "works": [
         {
             "id": 1,
-            "institución": "",
-            "titulo": "",
-            "inicio": "15-02-2013",
-            "fin": "20-12-2015",
-            "nivel": "",
-            "img":"assets/img/diploma.jpg"
+            "institucion": "Programa Empleo Joven y colegios de niveles secundarios y terciarios",
+            "titulo": "Capacitaciones de Higiene y Seguridad",
+            "inicio": "2016",
+            "fin": "2018",
+            "texto": "CHARLAS DE 5 MINUTOS DE HyS y Manejo de distintos Matafuegos: (A - B - AB - C - D) segun tipo de Fuego",
+            "img":"./assets/img/capacitar.jpg"
         },
         {
             "id": 2,
-            "institución": "",
-            "titulo1": "",
-            "inicio": "18-02-2021",
-            "fin": "30-10-2021",
-            "nivel": "",
-            "img":"assets/img/certificado.jpg"
+            "institucion": "Banco de Previsión Social",
+            "titulo": "TRABAJE COMO EMPLEADO BANCARIO ",
+            "inicio": "1979",
+            "fin": "1999",
+            "texto": " Desarrolle tareas en el Centro de Cómputos, como operador y data entry, en el área de cuentas corrientes atención de cliente,tareas en el área de Caja de Ahorro atención de jubilados",
+            "img":"assets/img/centro de computos.jpg"
         },
         {
             "id": 3,
-            "institución": "",
-            "titulo2": "",
-            "inicio": "2012-02-18",
-            "fin": "2021-10-30",
-            "nivel": "",
-            "img":"assets/img/MINIATURA-ARGEPROGR.jpg"
+            "institucion": "Dirección General de Escuelas Mendoza",
+            "titulo": "TRABAJE COMO EMPLEADO DIRECCION GENERAL DE ESCUELAS",
+            "inicio": "2001",
+            "fin": "2018",
+            "texto": " Capacitación docentes en emprendedorismo, Otorgamiento de bonos de puntaje a docentes de primaria",
+            "img":"assets/img/office-1246484__340.webp" 
+            
         }
-    ]    
-        
-
-
-
-}
+    ],
+    "redes": [
+        {
+            "id": 1,
+            "red":"facebook",
+            "link": "https://www.facebook.com", 
+            "icono": "fa-brands fa-facebook fa-xl"
+        },
+        {
+            "id": 2,
+            "red":"linkedin",
+            "link": "https://www.linkedin.com/in/miguel-trubiano-83093229/", 
+            "icono": "fa-brands fa-linkedin fa-xl"
+            
+        },
+        {
+            "id": 3,
+            "red":"github",
+            "link": "https://www.github.com/", 
+            "icono": "fa-brands fa-github fa-xl"
+            
+        },
+        {
+            "id": 4,
+            "red":"login.live",
+            "link": "https://login.live.com/", 
+            "icono": "fa-solid fa-envelope fa-xl"
+            
+        }
+    ],
+    "nombrefooter": "Miguel Angel Trubiano",
+    "contactofooter": 5492616714457
+ }
